@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM MBTI Analysis - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- MBTI Big Heading -->
+    <div class="mbti-header">
+        <div class="mbti-container">
+            <div class="mbti-letter">M</div>
+            <div class="mbti-letter">B</div>
+            <div class="mbti-letter">T</div>
+            <div class="mbti-letter">I</div>
+            <div class="mbti-subtitle">Personality Analysis</div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">LLM-MBTI Research</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="analysis.html"><i class="fas fa-chart-bar"></i> Analysis</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="personality-banner">
+        <div class="personality-type enfp">
+            <!-- Replace this with your ENFP image -->
+            <div class="type-image-container">
+                <img src="images/enfp-icon.png" alt="ENFP Icon" class="type-image">
+                <div class="type-label">ENFP</div>
+            </div>
+            <div class="type-desc">The Campaigner</div>
+            <div class="type-traits">
+                <span class="trait">Extraverted</span>
+                <span class="trait">Intuitive</span>
+                <span class="trait">Feeling</span>
+                <span class="trait">Perceiving</span>
+            </div>
+        </div>
+        <div class="personality-type intj">
+            <!-- Replace this with your INTJ image -->
+            <div class="type-image-container">
+                <img src="images/intj-icon.png" alt="INTJ Icon" class="type-image">
+                <div class="type-label">INTJ</div>
+            </div>
+            <div class="type-desc">The Architect</div>
+            <div class="type-traits">
+                <span class="trait">Introverted</span>
+                <span class="trait">Intuitive</span>
+                <span class="trait">Thinking</span>
+                <span class="trait">Judging</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="floating-shapes">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+            <div class="shape shape4"></div>
+        </div>
+
+        <section class="section intro-section">
+            <div class="section-header">
+                <h2><i class="fas fa-star"></i> Introduction</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="content-box intro-box">
+                <p>This study aims to investigate whether LLMs can answer some questions about human MBTI. The study will answer questions based on the responses from LLMs. There are three research questions in this research:</p>
+                <div class="research-questions">
+                    <div class="question-card">
+                        <div class="question-number">1</div>
+                        <h3>Do LLMs understand MBTI?</h3>
+                        <p>Exploring the comprehension capabilities of Large Language Models regarding Myers-Briggs Type Indicator concepts.</p>
+                    </div>
+                    <div class="question-card">
+                        <div class="question-number">2</div>
+                        <h3>Could LLMs think about the personalities from a human perspective?</h3>
+                        <p>Investigating whether LLMs can simulate human-like personality reasoning.</p>
+                    </div>
+                    <div class="question-card">
+                        <div class="question-number">3</div>
+                        <h3>How accurate of the LLMs' responses in MBTI?</h3>
+                        <p>Measuring the precision and reliability of LLM-generated MBTI-related responses.</p>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h4><i class="fas fa-users"></i> Research Team</h4>
+                    <div class="team-members">
+                        <div class="member">
+                            <div class="member-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="member-name">FiFi Cheung</div>
+                        </div>
+                        <div class="member">
+                            <div class="member-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="member-name">Melany Lin</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <section class="section methodology-section">
+            <div class="section-header">
+                <h2><i class="fas fa-flask"></i> Methodology</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="content-box methodology-box">
+                <div class="methodology-steps">
+                    <div class="step">
+                        <div class="step-icon">1</div>
+                        <h4>Question Design</h4>
+                        <p>Devised 17 MBTI-related questions for evaluation</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">2</div>
+                        <h4>LLM Testing</h4>
+                        <p>Presented questions to 10 different Large Language Models</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">3</div>
+                        <h4>Data Collection</h4>
+                        <p>Compiled responses into Excel files for ENFP and INTJ types</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">4</div>
+                        <h4>Analysis</h4>
+                        <p>Used Python for data visualization and analysis</p>
+                    </div>
+                </div>
+                
+                <p>This study first devised 17 MBTI-related questions, which were then presented by ten large language models (LLMs) to pretend they were the people with MBTI: ENFP/INTJ (each model consisted of 17 questions). The responses were then compiled into two Excel files. Python was used to create bar charts to visualize the data. Finally, the data was analyzed into two parts:</p>
+                <div class="analysis-parts">
+                    <div class="part-card part-a">
+                        <h4>Part A</h4>
+                        <p>What are the same/different answers on INTJ and ENFP personalities with different LLMs?</p>
+                    </div>
+                    <div class="part-card part-b">
+                        <h4>Part B</h4>
+                        <p>What are the LLMs' views on INTJ and ENFP personalities?</p>
+                    </div>
+                </div>
+                
+                <div class="excel-files-section">
+                    <h3><i class="fas fa-database"></i> Download Research Data</h3>
+                    <p class="section-subtitle">Click on any Excel file below to download the complete research data</p>
+                    
+                    <div class="excel-files-grid">
+                        <!-- Excel File 1: ENFP Short responses -->
+                        <a href="files/ENFP__Short responses.xlsx" class="excel-file" download>
+                            <div class="excel-icon">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <div class="excel-content">
+                                <h4>ENFP Responses</h4>
+                                <p>Complete LLM responses for ENFP personality type</p>
+                                <div class="file-details">
+                                    <span class="file-size">2.4 MB</span>
+                                    <span class="file-type">.xlsx</span>
+                                </div>
+                            </div>
+                            <div class="download-btn">
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </a>
+
+                        <!-- Excel File 2: ENFP Long response-->
+                        <a href="files/ENFP__Long response.xlsx" class="excel-file" download>
+                            <div class="excel-icon">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <div class="excel-content">
+                                <h4>INTJ Responses</h4>
+                                <p>Complete LLM responses for INTJ personality type</p>
+                                <div class="file-details">
+                                    <span class="file-size">2.1 MB</span>
+                                    <span class="file-type">.xlsx</span>
+                                </div>
+                            </div>
+                            <div class="download-btn">
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </a>
+
+                        <!-- Excel File 3: INTJ__Short responses-->
+                        <a href="files/INTJ__Short responses.xlsx" class="excel-file" download>
+                            <div class="excel-icon">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <div class="excel-content">
+                                <h4>MBTI Question Set</h4>
+                                <p>Complete set of 17 MBTI-related questions used in research</p>
+                                <div class="file-details">
+                                    <span class="file-size">0.8 MB</span>
+                                    <span class="file-type">.xlsx</span>
+                                </div>
+                            </div>
+                            <div class="download-btn">
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </a>
+
+                        <!-- Excel File 4: INTJ__Long response -->
+                        <a href="files/INTJ__Long response.xlsx" class="excel-file" download>
+                            <div class="excel-icon">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <div class="excel-content">
+                                <h4>Analysis Results</h4>
+                                <p>Complete statistical analysis and results data</p>
+                                <div class="file-details">
+                                    <span class="file-size">3.2 MB</span>
+                                    <span class="file-type">.xlsx</span>
+                                </div>
+                            </div>
+                            <div class="download-btn">
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="data-notes">
+                        <i class="fas fa-info-circle"></i>
+                        <p>All Excel files contain raw research data. Files include response timestamps, model information, and complete question-answer pairs for reproducibility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section acknowledgement-section">
+            <div class="section-header">
+                <h2><i class="fas fa-award"></i> Acknowledgements</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="content-box">
+                <table class="ack-table">
+                    <thead>
+                        <tr>
+                            <th>Members</th>
+                            <th>Contributions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="member-cell">
+                                <div class="member-highlight">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <div>
+                                        <strong>Lin Ka Man</strong><br>
+                                        <span class="student-id">55481716</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Correcting questionnaire questions, Integrating LLMs' responses (INTJ), Analyze Part B, Figures 1-17, The content of introduction and methodology</td>
+                        </tr>
+                        <tr>
+                            <td class="member-cell">
+                                <div class="member-highlight">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <div>
+                                        <strong>Cheung Mung Fei</strong><br>
+                                        <span class="student-id">58073283</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Creating questionnaire questions, Integrating LLMs' responses (ENFP), Make the website, simple word doc about web design</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section declaration-section">
+            <div class="section-header">
+                <h2><i class="fas fa-robot"></i> Declaration of GenAI Use</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="content-box">
+                <div class="genai-usage">
+                    <div class="genai-item">
+                        <div class="genai-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="genai-content">
+                            <h4>Data Visualization</h4>
+                            <p>Used LLMs for creating visual representations of research data and analysis results.</p>
+                        </div>
+                    </div>
+                    <div class="genai-item">
+                        <div class="genai-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="genai-content">
+                            <h4>Website Development</h4>
+                            <p>Utilized AI tools for website structure, design implementation, and code optimization.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="genai-note">
+                    <i class="fas fa-lightbulb"></i>
+                    <p>This project transparently incorporates AI tools to enhance research presentation while maintaining academic integrity.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="mbti-mini">
+                    <span>M</span><span>B</span><span>T</span><span>I</span>
+                </div>
+                <p>LLM Personality Analysis</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="analysis.html"><i class="fas fa-chart-bar"></i> Analysis</a>
+            </div>
+            <div class="footer-copyright">
+                <p>LLM MBTI Analysis Project &copy; 2025</p>
+                <p>Data Analysis of LLMs on Human MBTI Personality Types</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('show');
+        });
+
+        // Animate MBTI letters on scroll
+        window.addEventListener('scroll', function() {
+            const letters = document.querySelectorAll('.mbti-letter');
+            letters.forEach((letter, index) => {
+                const scrollPosition = window.scrollY;
+                letter.style.transform = `translateY(${Math.sin(scrollPosition / 200 + index) * 10}px)`;
+            });
+        });
+
+        // Add hover effects to personality types
+        document.querySelectorAll('.personality-type').forEach(type => {
+            type.addEventListener('mouseenter', function() {
+                const image = this.querySelector('.type-image');
+                if (image) {
+                    image.style.transform = 'scale(1.15) rotate(5deg)';
+                }
+            });
+            
+            type.addEventListener('mouseleave', function() {
+                const image = this.querySelector('.type-image');
+                if (image) {
+                    image.style.transform = 'scale(1) rotate(0deg)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
