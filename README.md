@@ -3,7 +3,7 @@
 A research website analyzing how Large Language Models understand and simulate MBTI personality types.
 
 ## 🌐 Live Website
-[View Live Site](#) *(Add your GitHub Pages link here after deployment)*
+[View Live Site](#) (https://cheungmungfei-eng.github.io/mbti-website-final/)
 
 ## 📋 Project Overview
 This website presents research on whether LLMs can:
